@@ -396,6 +396,28 @@ extern ErrorState_t ADC_enu_SetCallBack(void (*Copy_pfun_AppFunction)(void), voi
     
 }
 
+// extern ErrorState_t ADC_enu_GetVreference(u8* Copy_u8_Voltagereference)
+// {
+//     u8 Local_u8_ErrorFlag = ES_NOK;
+
+//     if(Copy_u8_Voltagereference)
+//     {
+//         switch (ADC_V_REFERENCE_SOURCE)
+//         {
+//             case ADC_AVCC
+//         }
+//         *Copy_u8_Voltagereference = ADC_V_REFERENCE_SOURCE;
+
+//         Local_u8_ErrorFlag = ES_OK;
+//     }
+//     else
+//     {
+//         Local_u8_ErrorFlag = ES_NULL_POINTER;
+//     }
+
+//     return Local_u8_ErrorFlag;
+// }
+
 //ISR functions
 
 void __vector_16 (void)__attribute__((signal));

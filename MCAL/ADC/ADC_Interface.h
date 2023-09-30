@@ -116,5 +116,7 @@ extern ErrorState_t ADC_enu_DisableADC(void);
 
 extern ErrorState_t ADC_enu_SetCallBack(void (*Copy_pfun_AppFunction)(void), void* Copy_u8_Parameters);
 
+// extern ErrorState_t ADC_enu_GetVreference(u8* Copy_u8_Voltagereference);
+
 
 #endif
